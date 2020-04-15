@@ -1,8 +1,14 @@
 {
-  "name": "Kasia",
+  "name": "initial",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:Kasia360/project-electron.git",
-  "author": "Kasia Brzezinska <kasiaplaskota4@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "dependencies": {
+    "electron": "^5.0.7",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
 }
